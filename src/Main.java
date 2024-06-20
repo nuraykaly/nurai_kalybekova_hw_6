@@ -7,10 +7,8 @@ public class Main {
         Weapon bossWeapon = new Weapon(WeaponType.SWORD, "Excalibur");
         boss.setWeapon(bossWeapon);
 
-        // Печать информации о боссе
         boss.printInfo();
-
-        // Создание и настройка скелетов
+        
         Skeleton skeleton1 = new Skeleton();
         skeleton1.setHealth(300);
         skeleton1.setDamage(50);
@@ -25,7 +23,6 @@ public class Main {
         Weapon skeletonWeapon2 = new Weapon(WeaponType.BOW, "Bone Bow");
         skeleton2.setWeapon(skeletonWeapon2);
 
-        // Печать информации о скелетах
         skeleton1.printInfo();
         skeleton2.printInfo();
     }
